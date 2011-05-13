@@ -1,0 +1,9 @@
+Write an 'install' target in our makefile
+
+Implement a big red "Emergency Stop" button on the print tab that sends an M112 code to the printer.
+
+Libraries to be moved to /lib:
+
+ - ivcon.c
+ - AsyncSerial
+ - FLTK stuff

@@ -41,7 +41,7 @@ make && sudo make install
 
 echo 'baixando a ultima versão do programa...'
 
-sudo git clone git://github.com/timschmidt/repsnapper
+sudo git clone git://github.com/timschmidt/repsnapper ### trocar pelo repositorio 3d print 
 
 cd /home/repsnapper/
 
@@ -50,7 +50,7 @@ make
 
 cd /home/repsnapper/src/
 
-make install
+sudo make install
 
 cd /home/
 
@@ -58,7 +58,7 @@ echo 'adquirindo configurações especificas'
 
 sudo git clone git@github.com:danielprint/3dprint.git
 
-rm ~/.conf/repsnapper/repsnapper.conf
+rm ~/.config/repsnapper/repsnapper.conf
 
 cp /home/3dprint/repsnapper.conf ~/.conf/repsnapper/
 
